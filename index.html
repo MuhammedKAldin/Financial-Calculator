@@ -1,0 +1,102 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>Financial Calculator</title>
+  <meta name="description" content="A financial calculator widget, can be added to any website.">
+  <meta name="author" content="Muhammed Kamal">
+  <!-- style -->
+  <link href="font-awesome/css/fontawesome.css" rel="stylesheet">
+  <link href="font-awesome/css/all.css" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+
+
+</head>
+
+<body>
+  <!-- your content here... -->
+  <div id="container" align='center'>
+    <h2> Calculate your Rewards </h2>
+    <table id="financialTable">
+        <tr>
+            <td> Vendor/Bills </td>
+            <td>
+                <input type='number' id='bills' name='bills' placeholder="Enter a number" /></br>
+            </td>
+        </tr>
+        <tr>
+            <td> Media/Ad Spend </td>
+            <td>
+                <input type='number' id='media' name='media' placeholder="Enter a number" /></br>
+            </td>
+        </tr>
+        <tr>
+            <td> Corp.Spend </td>
+            <td>
+                <input type='number' id='corpSpend' name='corpSpend' placeholder="Enter a number" /></br>
+            </td>
+        </tr>
+        <tr>
+            <td> Team Project </td>
+            <td>
+                <input type='number' id='teamProject' name='teamProject' placeholder="Enter a number" /></br>
+            </td>
+        </tr>
+      </table>
+  </div>
+
+  <div id="container" align='center'>
+    <h2> Compare your Rewards </h2>
+    <div>
+        <button class='brands brand1'>
+            <img src="img/brex.jpg" />
+        </button>
+        <button class='brands brand2'>
+            <img src="img/stripe.png" />
+        </button>
+        <button class='brands brand3'>
+            <img src="img/amex.png" />
+        </button>
+        <i class="rightArrow navgiateBrands far fa-arrow-alt-circle-right"></i>
+    <div>
+    </br>
+    </br>
+    <div id='brandCard_results'>
+        
+        <table id="resultTable">
+            <tr>
+                <td> <span id='selectedBrand'>Select</span> Business Card </td>
+                <td>
+                    <progress id='cardProgress' value="36" max="100"></progress>
+                    <span id="cardValue" style="margin-left: -109px;"> $0 </span>
+                </td>
+            </tr>
+            <tr id='unlimitedRow'>
+                <td> Unlimted Rewards </td>
+                <td>
+                    <progress id='unlimtedProgress' value="75" max="100"></progress>
+                    <span id="unlimted" style="margin-left: -38px;"> $0 </span>
+                </td>
+            </tr>
+            <tr id='lifetimeRow'>
+                <td> LIFETIME REWARDS </td>
+                <td>
+                    <progress id='lifetimeProgress' value="100" max="100"></progress>
+                    <span id='lifetime'> $0 </span>
+                    <div id='card_container' >
+                        <img id='cardImg' src="img/card.PNG" />
+                    </div>
+                </td>
+            </tr>
+          </table>
+          
+    <div>
+  </div>
+
+  <!-- scripts -->
+  <script src="script/script.js"></script>
+</body>
+</html>

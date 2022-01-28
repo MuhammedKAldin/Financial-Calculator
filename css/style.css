@@ -1,0 +1,91 @@
+input {
+  appearance: textfield;
+}
+
+#financialTable td {
+  padding-left: 30px;
+  padding-bottom: 21px;
+  font-weight: 900;
+  font-size: 18px;
+}
+
+.brands {
+  box-shadow: 3px 5px 5px 0px #c6c6c6;
+  width: 109px;
+  height: 70px;
+  background-color: white;
+  margin-left: 15px;
+  overflow: auto;
+  scale: 1;
+  transition: 0.3s;
+}
+
+.brands img {
+  height: 43px;
+  scale: 1.2;
+  opacity: 0.6;
+  transition: 0.3s;
+}
+.brands img:hover {
+  opacity: 1;
+}
+
+.brands:hover {
+  scale: 1.2;
+  filter: grayscale(100%);
+}
+
+.navgiateBrands {
+  font-size: 33px;
+  padding-left: 14px;
+  opacity: 0.6;
+  transition: 0.3s;
+}
+
+.navgiateBrands:hover {
+  scale: 1.2;
+  opacity: 1;
+}
+
+#resultTable td {
+  padding-left: 30px;
+  padding-bottom: 21px;
+  font-weight: 900;
+  font-size: 18px;
+}
+
+#lifetime {
+  font-size: 25px;
+}
+
+#resultTable progress {
+  background-color: transparent;
+  border: 0;
+}
+
+#card_container {
+  position: absolute;
+}
+
+#card_container #cardImg {
+  width: 174px;
+  margin-right: 500px;
+  position: relative;
+  top: -141px;
+  left: -344px;
+}
+
+.SELECTED_BRAND {
+  scale: 1.2;
+  opacity: 1;
+  filter: grayscale(100%);
+}
+
+.SELECTED_BRAND img {
+  opacity: 1;
+}
+
+#unlimitedRow,
+#lifetimeRow {
+  visibility: hidden;
+}
