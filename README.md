@@ -14,8 +14,13 @@ calculated and appear automatically once the user has entered the 4
 numbers. 
 
 #Sum = ( Vendor/Bills + Media/Ad + Corporation spend+ Team project ) 
+
 #Brex = sum* 0.3 
+
 #Stripe = sum *2.9 
+
 #Amex = sum * 1.3 
+
 #unlimited rewards = sum * 1.1 
+
 #lifetime rewards = sum *1.2
